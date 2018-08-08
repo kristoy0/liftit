@@ -1,0 +1,12 @@
+FROM {{ image }}
+
+COPY . /app
+WORKDIR /app
+
+{% for command in commands %}
+RUN {{ command }}
+{% endfor %}
+
+{% for port in ports %}
+EXPOSE {{ port }}
+{% endfor %}
