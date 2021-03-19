@@ -4,7 +4,7 @@ click==6.7
 docker==3.4.1
 docker-pycreds==0.3.0
 idna==2.7
-Jinja2==2.10
+Jinja2==2.11.3
 jsonschema==2.6.0
 MarkupSafe==1.0
 packaging==17.1
